@@ -5,5 +5,7 @@ public class Biblioteca
     public int Añodepublicacion { get; set; }
     public decimal Precio { get; set; }
     public bool Disponible { get; set; }
-    public string Categoria {get}
+    public string Categoria { get; set; }
+    public int Numerodepagínas { get; set;}
+    public int Fechadeingreso { get; set; } 
 }
